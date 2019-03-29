@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    padding: 1em;
+}
+
+.key {
+    display: inline-block;
+    font-size: 2em;
+    padding: .8em 1em;
+    border: 1px solid black;
+}
