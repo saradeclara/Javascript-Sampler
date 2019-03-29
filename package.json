@@ -1,0 +1,22 @@
+{
+  "name": "javascript-sampler",
+  "version": "1.0.0",
+  "description": "Little fun Javascript sampler. Make a new tune today in the browser!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saradeclara/Javascript-Sampler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saradeclara/Javascript-Sampler/issues"
+  },
+  "homepage": "https://github.com/saradeclara/Javascript-Sampler#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
