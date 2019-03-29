@@ -14,3 +14,8 @@ h1 {
     padding: .8em 1em;
     border: 1px solid black;
 }
+
+.active {
+    border: 1px solid red;
+    color: red;
+}
