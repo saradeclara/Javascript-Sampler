@@ -18,5 +18,8 @@
   "homepage": "https://github.com/saradeclara/Javascript-Sampler#readme",
   "devDependencies": {
     "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "eslint": "^5.15.3"
   }
 }
