@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,15 @@ h1 {
     padding: 1em;
 }
 
+h2 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Roboto Slab';
+    letter-spacing: .5em;
+}
+
 #drumkit {
-    background:url(img/drums.jpg) rgb(43, 39, 39);
+    background:url(img/drums.jpg) rgb(41, 38, 38);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
@@ -19,6 +28,7 @@ h1 {
 }
 
 .key {
+    font-family: 'Roboto Slab';
     display: inline-block;
     font-size: 2em;
     padding: .8em 1em;
@@ -27,7 +37,7 @@ h1 {
     font-weight: bold;
     width: 2em;
     height: 2em;
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.5);
 }
 
 .active {
