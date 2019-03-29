@@ -12,10 +12,12 @@ h1 {
     display: inline-block;
     font-size: 2em;
     padding: .8em 1em;
-    border: 1px solid black;
+    border: 2px solid black;
+    margin: 0 1em;
+    font-weight: bold;
 }
 
 .active {
-    border: 1px solid red;
+    border: 2px solid red;
     color: red;
 }
