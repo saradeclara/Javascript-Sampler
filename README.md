@@ -2,7 +2,8 @@
 Little fun Javascript sampler. 
 Trigger loops and samples and write a tune on your keyboard!
 
-## [Live Demo](https://codepen.io/saradeclara/pen/rbBbrv)
+### Live Demo
+- [https://codepen.io/saradeclara/full/rbBbrv](https://codepen.io/saradeclara/full/rbBbrv) (CodePen)
 
 ## Resources and Inspiration:
 - [Keycode.info](http://keycode.info/)
