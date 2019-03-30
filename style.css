@@ -31,7 +31,7 @@ h2 {
     letter-spacing: .5em;
 }
 
-#drummachine, #acousticdrums {
+#drummachine, #acousticdrums, #loopstation {
     padding: 3em;
     background-blend-mode: overlay;
     height: auto;
@@ -50,6 +50,13 @@ h2 {
 
 #acousticdrums {
     background: url(img/drums.jpg) rgb(43, 40, 40);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#loopstation {
+    background: url(img/loopstation.jpg) rgb(43, 40, 40);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
