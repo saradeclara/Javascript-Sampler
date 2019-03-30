@@ -1,6 +1,6 @@
 # Javascript-Sampler
 Little fun Javascript sampler. 
-Trigger loops and sample and write a tune on your keyboard!
+Trigger loops and samples and write a tune on your keyboard!
 
 ## Resources and Inspiration:
 - [Keycode.info](http://keycode.info/)
