@@ -35,6 +35,10 @@ document.addEventListener('keydown', function (e) {
         let activeButton = document.getElementById('l');
         activeButton.classList.add("active-dm");
         document.getElementById("perc").play();
+    } else if (e.keyCode == 81) {
+        let activeButton = document.getElementById('q');
+        activeButton.classList.add("active-ad");
+        document.getElementById("kick-ad").play();
     }
 });
 
@@ -84,5 +88,10 @@ document.addEventListener('keyup', function (e) {
         activeButton.classList.remove("active-dm");
         document.getElementById("perc").pause();
         document.getElementById("perc").currentTime = 0;
+    } else if (e.keyCode == 81) {
+        let activeButton = document.getElementById('q');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("kick-ad").pause();
+        document.getElementById("kick-ad").currentTime = 0;
     }
 });
