@@ -1,34 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 
 * {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Roboto Slab';
+}
+
+body {
+    background-color: rgb(39, 39, 39);
 }
 
 h1 {
-    padding: 1em;
+    padding: .5em;
+    margin: .3em 0;
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: white;
 }
 
 h2 {
     font-size: 2.5em;
     color: white;
-    font-family: 'Roboto Slab';
+    
     letter-spacing: .5em;
 }
 
-#drumkit {
+#drummachine, #acousticdrums {
+    padding: 3em;
+    background-blend-mode: overlay;
+    height: auto;
+    margin: 1.5em;
+}
+
+#drummachine {
     background:url(img/drummachine.jpg) rgb(41, 38, 38);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
-    padding: 1em;
-    background-blend-mode: overlay;
-    height: auto;
+
+}
+
+#acousticdrums {
+    background:url(img/drums.jpg) rgb(41, 38, 38);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+
 }
 
 .key {
-    font-family: 'Roboto Slab';
     display: inline-block;
     font-size: 2em;
     padding: .8em 1em;
