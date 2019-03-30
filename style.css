@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(39, 39, 39);
+    background-color: #313131;
 }
 
 h1 {
@@ -21,12 +20,14 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .3em;
     color: white;
+    background: linear-gradient(to bottom, #eee, rgb(180, 33, 33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
     font-size: 2.5em;
     color: white;
-    
     letter-spacing: .5em;
 }
 
@@ -34,23 +35,24 @@ h2 {
     padding: 3em;
     background-blend-mode: overlay;
     height: auto;
-    margin: 1.5em;
+    margin: 3em;
+    -webkit-box-shadow: 6px 6px 11px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 6px 6px 11px -1px rgba(0, 0, 0, 1);
+    box-shadow: 6px 6px 11px -1px rgba(0, 0, 0, 1);
 }
 
 #drummachine {
-    background:url(img/drummachine.jpg) rgb(41, 38, 38);
+    background: url(img/drummachine.jpg) rgb(41, 38, 38);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
-
 }
 
 #acousticdrums {
-    background:url(img/drums.jpg) rgb(41, 38, 38);
+    background: url(img/drums.jpg) rgb(41, 38, 38);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
-
 }
 
 .key {
@@ -62,12 +64,17 @@ h2 {
     font-weight: bold;
     width: 2em;
     height: 2em;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255, .5);
 }
 
-.active {
+.active-dm {
     border: 2px solid yellow;
     color: yellow;
+}
+
+.active-ad {
+    border: 2px solid rgb(234, 0, 255);
+    color: rgb(234, 0, 255);
 }
 
 .label {
