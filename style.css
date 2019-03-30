@@ -12,9 +12,9 @@ body {
 }
 
 h1 {
-    padding: .5em;
-    margin: .3em 0;
-    font-size: 3em;
+    padding: .5em 0 0 0;
+    margin: .5em 0 0 0;
+    font-size: 3.5em;
     font-family: 'Monoton', cursive;
     font-weight: normal;
     text-transform: uppercase;
