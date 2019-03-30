@@ -39,6 +39,38 @@ document.addEventListener('keydown', function (e) {
         let activeButton = document.getElementById('q');
         activeButton.classList.add("active-ad");
         document.getElementById("kick-ad").play();
+    } else if (e.keyCode == 87) {
+        let activeButton = document.getElementById('w');
+        activeButton.classList.add("active-ad");
+        document.getElementById("snare-ad").play();
+    }else if (e.keyCode == 69) {
+        let activeButton = document.getElementById('e');
+        activeButton.classList.add("active-ad");
+        document.getElementById("rim-ad").play();
+    } else if (e.keyCode == 82) {
+        let activeButton = document.getElementById('r');
+        activeButton.classList.add("active-ad");
+        document.getElementById("close-hat-ad").play();
+    } else if (e.keyCode == 84) {
+        let activeButton = document.getElementById('t');
+        activeButton.classList.add("active-ad");
+        document.getElementById("open-hat-ad").play();
+    } else if (e.keyCode == 89) {
+        let activeButton = document.getElementById('y');
+        activeButton.classList.add("active-ad");
+        document.getElementById("crash-ad").play();
+    } else if (e.keyCode == 85) {
+        let activeButton = document.getElementById('u');
+        activeButton.classList.add("active-ad");
+        document.getElementById("tom1-ad").play();
+    } else if (e.keyCode == 73) {
+        let activeButton = document.getElementById('i');
+        activeButton.classList.add("active-ad");
+        document.getElementById("tom2-ad").play();
+    } else if (e.keyCode == 79) {
+        let activeButton = document.getElementById('o');
+        activeButton.classList.add("active-ad");
+        document.getElementById("tom3-ad").play();
     }
 });
 
@@ -93,5 +125,45 @@ document.addEventListener('keyup', function (e) {
         activeButton.classList.remove("active-ad");
         document.getElementById("kick-ad").pause();
         document.getElementById("kick-ad").currentTime = 0;
+    } else if (e.keyCode == 87) {
+        let activeButton = document.getElementById('w');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("snare-ad").pause();
+        document.getElementById("snare-ad").currentTime = 0;
+    } else if (e.keyCode == 69) {
+        let activeButton = document.getElementById('e');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("rim-ad").pause();
+        document.getElementById("rim-ad").currentTime = 0;
+    } else if (e.keyCode == 82) {
+        let activeButton = document.getElementById('r');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("close-hat-ad").pause();
+        document.getElementById("close-hat-ad").currentTime = 0;
+    } else if (e.keyCode == 84) {
+        let activeButton = document.getElementById('t');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("open-hat-ad").pause();
+        document.getElementById("open-hat-ad").currentTime = 0;
+    } else if (e.keyCode == 89) {
+        let activeButton = document.getElementById('y');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("crash-ad").pause();
+        document.getElementById("crash-ad").currentTime = 0;
+    } else if (e.keyCode == 85) {
+        let activeButton = document.getElementById('u');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("tom1-ad").pause();
+        document.getElementById("tom1-ad").currentTime = 0;
+    } else if (e.keyCode == 73) {
+        let activeButton = document.getElementById('i');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("tom2-ad").pause();
+        document.getElementById("tom2-ad").currentTime = 0;
+    } else if (e.keyCode == 79) {
+        let activeButton = document.getElementById('o');
+        activeButton.classList.remove("active-ad");
+        document.getElementById("tom3-ad").pause();
+        document.getElementById("tom3-ad").currentTime = 0;
     }
 });

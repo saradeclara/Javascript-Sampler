@@ -42,14 +42,14 @@ h2 {
 }
 
 #drummachine {
-    background: url(img/drummachine.jpg) rgb(41, 38, 38);
+    background: url(img/drummachine.jpg) rgb(43, 40, 40);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
 }
 
 #acousticdrums {
-    background: url(img/drums.jpg) rgb(41, 38, 38);
+    background: url(img/drums.jpg) rgb(43, 40, 40);
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
@@ -64,7 +64,7 @@ h2 {
     font-weight: bold;
     width: 2em;
     height: 2em;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .active-dm {
@@ -73,8 +73,8 @@ h2 {
 }
 
 .active-ad {
-    border: 2px solid rgb(255, 0, 255);
-    color: rgb(255,0,255);
+    border: 2px solid fuchsia;
+    color: fuchsia;
 }
 
 .label {
