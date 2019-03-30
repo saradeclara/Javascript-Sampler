@@ -71,6 +71,34 @@ document.addEventListener('keydown', function (e) {
         let activeButton = document.getElementById('o');
         activeButton.classList.add("active-ad");
         document.getElementById("tom3-ad").play();
+    } else if (e.keyCode == 220) {
+        if (!document.getElementById('melody').classList.contains('active-loop')) {
+            let activeButton = document.getElementById('melody');
+            // let progressBar = document.getElementById('loop1');
+            activeButton.classList.add("active-loop");
+            document.getElementById("melodyloop").play();
+            document.getElementById("melodyloop").loop = true;
+            // progressBar.classList.add("transition");
+        } else {
+            document.getElementById("melodyloop").pause();
+            document.getElementById("melodyloop").currentTime = 0;
+            let activeButton = document.getElementById('melody');
+            activeButton.classList.remove("active-loop");
+        }
+    } else if (e.keyCode == 90) {
+        if (!document.getElementById('guitar').classList.contains('active-loop')) {
+            let activeButton = document.getElementById('guitar');
+            // let progressBar = document.getElementById('loop1');
+            activeButton.classList.add("active-loop");
+            document.getElementById("guitarloop").play();
+            document.getElementById("guitarloopz").loop = true;
+            // progressBar.classList.add("transition");
+        } else {
+            document.getElementById("guitarloop").pause();
+            document.getElementById("guitarloop").currentTime = 0;
+            let activeButton = document.getElementById('guitar');
+            activeButton.classList.remove("active-loop");
+        }
     }
 });
 
